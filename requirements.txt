@@ -9,7 +9,6 @@ opencv-python
 imageio
 imageio-ffmpeg
 
-torch
 torch-ema
 einops
 tensorboard
@@ -26,6 +25,21 @@ huggingface_hub
 diffusers >= 0.9.0 
 accelerate
 transformers
+
+# for dmtet and mesh export
+xatlas
+trimesh
+PyMCubes
+pymeshlab
+git+https://github.com/NVlabs/nvdiffrast/
+
+# for zero123
+carvekit-colab
+omegaconf
+pytorch-lightning
+taming-transformers-rom1504
+kornia
+git+https://github.com/openai/CLIP.git
 
 # for dpt
 timm
