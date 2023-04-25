@@ -34,13 +34,5 @@ PyMCubes
 pymeshlab
 git+https://github.com/NVlabs/nvdiffrast/
 
-# for zero123
-carvekit-colab
-omegaconf
-pytorch-lightning
-taming-transformers-rom1504
-kornia
-git+https://github.com/openai/CLIP.git
-
 # for dpt
 timm
